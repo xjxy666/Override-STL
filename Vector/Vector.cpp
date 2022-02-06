@@ -57,8 +57,7 @@ public:
 
 void printPersonArray(MyArray<Person>& arr) {
 	for (int i = 0; i < arr.getSize(); i++) {
-		cout <<"姓名：" << arr[i].m_Name 
-			<< " 年龄： "<<arr[i].m_Age << endl;
+		cout <<"姓名：" << arr[i].m_Name << " 年龄： "<<arr[i].m_Age << endl;
 	}
 }
 
